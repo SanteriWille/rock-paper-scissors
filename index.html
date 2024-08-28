@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Rock - Paper - Scissors</title>
+</head>
+<body>
+  <nav id="navbar">
+    <h1><a href="../digital_klokke/index.html" class="logo">Prosjekter</a></h1>
+    <ul>
+      <li><a href="../to_do_list/index.html">To-Do liste</a></li>
+      <li><a href="../Kalkulator/index.html">Kalkulator</a></li>
+      <li><a href="../rock_paper_scissors/index.html">Stein, saks, papir</a></li>
+    </ul>
+  </nav>
+
+  <h1>Rock - Paper - Scissors</h1>
+
+  <div class="choices">
+    <button onclick="playGame('rock')">👊</button>
+    <button onclick="playGame('paper')">🖐️</button>
+    <button onclick="playGame('scissors')">✌️</button>
+  </div>
+
+  <div id="playerDisplay">PLAYER:</div>
+  <div id="computerDisplay">COMPUTER:</div>
+  <div id="resultDisplay"></div>
+  
+  <div class="scoreDisplay">Player Score:
+    <span id="playerScoreDisplay">0</span>
+  </div>
+
+  <div class="scoreDisplay">Computer Score:
+    <span id="computerScoreDisplay">0</span>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

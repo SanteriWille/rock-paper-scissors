@@ -1,0 +1,79 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 5rem; 
+  margin-top: -2rem
+}
+
+#navbar .logo {
+  color: #444;
+  font-size: 2.7rem;
+  text-decoration: none;
+}
+
+#navbar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 2rem;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #444;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+.choices {
+  margin-bottom: 2.5rem;
+}
+
+.choices button {
+  font-size: 6rem;
+  min-width: 160px;
+  margin: 0 0.8rem;
+  border-radius: 20px;
+  background: #48A3A5;
+  cursor: pointer;
+  transition: background 0.5s ease;
+}
+
+.choices button:hover {
+  background: #3c8a8b;
+}
+
+#playerDisplay, #computerDisplay {
+  font-size: 2rem;
+}
+
+#resultDisplay {
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+.scoreDisplay {
+  font-size: 1.5rem;
+}
+
+.greenText, #playerScoreDisplay {
+  color: rgb(10, 189, 10);
+}
+
+.redText, #computerScoreDisplay {
+  color: red;
+}
